@@ -1,6 +1,6 @@
-from fastapi import FastAPI
+from fastapi import FastAPI # type: ignore
 
-app = FastAPI()
+app = FastAPI(root_path='/py')
 
 @app.get("/api")
 def helloWorld():

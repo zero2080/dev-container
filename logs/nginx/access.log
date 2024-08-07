@@ -1,0 +1,8 @@
+172.19.0.1 - - [07/Aug/2024:06:11:10 +0000] "GET /py HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+172.19.0.1 - - [07/Aug/2024:06:11:13 +0000] "GET /py/api HTTP/1.1" 200 25 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+172.19.0.1 - - [07/Aug/2024:06:11:16 +0000] "GET /py/docs HTTP/1.1" 200 937 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+172.19.0.1 - - [07/Aug/2024:06:11:16 +0000] "GET /py/openapi.json HTTP/1.1" 200 278 "http://localhost:51759/py/docs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+172.19.0.1 - - [07/Aug/2024:06:11:21 +0000] "GET /py/redoc HTTP/1.1" 200 894 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+172.19.0.1 - - [07/Aug/2024:06:11:21 +0000] "GET /py/openapi.json HTTP/1.1" 200 278 "http://localhost:51759/py/redoc" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+172.19.0.1 - - [07/Aug/2024:06:11:26 +0000] "GET /java HTTP/1.1" 404 275 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+172.19.0.1 - - [07/Aug/2024:06:11:28 +0000] "GET /java/api HTTP/1.1" 404 275 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"

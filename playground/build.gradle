@@ -13,6 +13,11 @@ java {
 	}
 }
 
+bootJar{
+    launchScript()
+    archiveFileName = "api.jar"
+}
+
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
